@@ -1,0 +1,18 @@
+{
+    "name": "nmail/nkmail",
+    "description": "This is a task 2 using php mailer",
+    "autoload": {
+        "psr-4": {
+            "Nmail\\Nkmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nk",
+            "email": "nikhilkhandelwal608@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
